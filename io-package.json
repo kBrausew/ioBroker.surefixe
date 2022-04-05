@@ -1,0 +1,95 @@
+{
+    "common": {
+        "name": "surefixe",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "Sure Fixe Abnormalities",
+        "titleLang": {
+            "en": "Sure Fixe Abnormalities",
+            "de": "Sicher Fixe Anomalien",
+            "ru": "Уверенное исправление аномалий",
+            "pt": "Corrigir Anormalidades",
+            "nl": "Abnormaliteiten zeker oplossen",
+            "fr": "Sure Fixe Anomalies",
+            "it": "Anomalie di correzione sicura",
+            "es": "Anomalías de corrección segura",
+            "pl": "Pewnie napraw nieprawidłowości",
+            "zh-cn": "Sure Fixe 异常"
+        },
+        "desc": {
+            "en": "Notification error processing",
+            "de": "Verarbeitung von Benachrichtigungsfehlern",
+            "ru": "Обработка ошибок уведомлений",
+            "pt": "Processamento de erro de notificação",
+            "nl": "Verwerking van meldingsfout",
+            "fr": "Traitement des erreurs de notification",
+            "it": "Elaborazione dell'errore di notifica",
+            "es": "Procesamiento de errores de notificación",
+            "pl": "Przetwarzanie błędu powiadomienia",
+            "zh-cn": "通知错误处理"
+        },
+        "authors": [
+            "kbrausew <kurt.brausewetter@t-online.de>"
+        ],
+        "keywords": [
+            "notification error abnormalities"
+        ],
+        "license": "GPL-3.0",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "surefixe.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/kBrausew/ioBroker.surefixe/main/admin/surefixe.png",
+        "readme": "https://github.com/kBrausew/ioBroker.surefixe/blob/main/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "general",
+        "compact": true,
+        "connectionType": "local",
+        "dataSource": "poll",
+        "materialize": true,
+        "materializeTab": true,
+        "adminTab": {
+            "singleton": true,
+            "name": {
+                "en": "Sure Fixe Abnormalities",
+                "de": "Sicher Fixe Anomalien",
+                "ru": "Уверенное исправление аномалий",
+                "pt": "Corrigir Anormalidades",
+                "nl": "Abnormaliteiten zeker oplossen",
+                "fr": "Sure Fixe Anomalies",
+                "it": "Anomalie di correzione sicura",
+                "es": "Anomalías de corrección segura",
+                "pl": "Pewnie napraw nieprawidłowości",
+                "zh-cn": "Sure Fixe 异常"
+            },
+            "link": "",
+            "fa-icon": "info"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=2.0.0"
+            }
+        ]
+    },
+    "native": {
+        "battery": true,
+        "reachable": true,
+        "option3": "1"
+    },
+    "objects": [],
+    "instanceObjects": []
+}

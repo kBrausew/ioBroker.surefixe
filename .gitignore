@@ -3,6 +3,8 @@
 !.vscode/
 !.github/
 
+.npmrc
+.dev-server
 *.code-workspace
 node_modules
 nbproject

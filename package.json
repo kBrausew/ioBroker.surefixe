@@ -7,13 +7,19 @@
     "kbrausew"
   ],
   "homepage": "https://github.com/kBrausew/ioBroker.surefixe",
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-or-later",
   "keywords": [
-    "notification error abnormalities"
+    "status",
+    "battery",
+    "error",
+    "report",
+    "notification",
+    "reachable",
+    "abnormalities"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kBrausew/ioBroker.surefixe.git"
+    "url": "https://github.com/kBrausew/ioBroker.surefixe.git"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.6.0"

@@ -47,13 +47,13 @@
         "keywords": [
             "notification error abnormalities"
         ],
-        "license": "GPL-3.0",
+        "license": "GPL-3.0-or-later",
         "platform": "Javascript/Node.js",
         "main": "main.js",
         "icon": "surefixe.png",
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/kBrausew/ioBroker.surefixe/main/admin/surefixe.png",
-        "readme": "https://github.com/kBrausew/ioBroker.surefixe/blob/main/README.md",
+        "extIcon": "https://raw.githubusercontent.com/kBrausew/ioBroker.surefixe/master/admin/surefixe.png",
+        "readme": "https://github.com/kBrausew/ioBroker.surefixe/blob/master/README.md",
         "loglevel": "info",
         "mode": "daemon",
         "type": "general",

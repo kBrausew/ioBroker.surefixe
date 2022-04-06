@@ -1,10 +1,10 @@
 {
   "name": "iobroker.surefixe",
-  "version": "0.0.1",
+  "version": "0.9.0",
   "description": "Notification error processing",
-  "author": "kbrausew <kurt.brausewetter@t-online.de>",
+  "author": "kBrausew <kbrausew@magenta.de>",
   "contributors": [
-    "kbrausew"
+    "kBrausew"
   ],
   "homepage": "https://github.com/kBrausew/ioBroker.surefixe",
   "license": "GPL-3.0-or-later",

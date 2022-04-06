@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kbrausew/ioBroker.surefixe.git"
+    "url": "https://github.com/kBrausew/ioBroker.surefixe"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.6.0"

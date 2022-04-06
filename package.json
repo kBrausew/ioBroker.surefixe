@@ -2,14 +2,9 @@
   "name": "iobroker.surefixe",
   "version": "0.0.1",
   "description": "Notification error processing",
-  "author": {
-    "name": "kbrausew",
-    "email": "kurt.brausewetter@t-online.de"
-  },
+  "author": "kbrausew <kurt.brausewetter@t-online.de>",
   "contributors": [
-    {
-      "name": "kbrausew"
-    }
+    "kbrausew"
   ],
   "homepage": "https://github.com/kBrausew/ioBroker.surefixe",
   "license": "GPL-3.0",
@@ -18,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kBrausew/ioBroker.surefixe"
+    "url": "git+https://github.com/kBrausew/ioBroker.surefixe.git"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.6.0"
@@ -67,5 +62,8 @@
   "bugs": {
     "url": "https://github.com/kBrausew/ioBroker.surefixe/issues"
   },
-  "readmeFilename": "README.md"
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }

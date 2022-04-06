@@ -12,7 +12,7 @@
 **Tests:** ![Test and Release](https://github.com/kBrausew/ioBroker.surefixe/workflows/Test%20and%20Release/badge.svg)
 
 ## **surefixe** adapter for ioBroker
-tbd
+Status report notification (battery, reachable, error etc)
 
 ### Keywords
 status battery error report notification reachable abnormalities

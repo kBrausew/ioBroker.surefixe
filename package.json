@@ -1,7 +1,7 @@
 {
   "name": "iobroker.surefixe",
-  "version": "0.9.0",
-  "description": "Notification error processing",
+  "version": "0.9.1",
+  "description": "Status report notification (battery, reachable, error etc)",
   "author": "kBrausew <kbrausew@magenta.de>",
   "contributors": [
     "kBrausew"

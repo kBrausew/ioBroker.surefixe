@@ -55,6 +55,7 @@
         "extIcon": "https://raw.githubusercontent.com/kBrausew/ioBroker.surefixe/master/admin/surefixe.png",
         "readme": "https://github.com/kBrausew/ioBroker.surefixe/blob/master/README.md",
         "loglevel": "info",
+        "logTransporter": true,
         "mode": "daemon",
         "type": "general",
         "compact": true,

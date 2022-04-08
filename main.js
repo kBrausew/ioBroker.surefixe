@@ -32,13 +32,16 @@ class sureFixe extends utils.Adapter {
      * Is called when databases are connected and adapter received configuration.
      */
     async onReady() {
+        // @ts-ignore
         this.requireLog(true);
+        // @ts-ignore
         this.on("log", this.onLog.bind(this));
+        const intCount = this.config.timesDay | 2;
+        const intTime  = 86400000 / intCount;
 
-        this.log.info("Start...");
-        this.setTimeout(() => {
-            this.log.error("Error");
-        }, 3000);
+        this.interval = this.setInterval(() => {
+            this.log.info("Run...");
+        }, intTime );
     }
 
     /**
@@ -59,6 +62,7 @@ class sureFixe extends utils.Adapter {
             // clearTimeout(timeout2);
             // ...
             // clearInterval(interval1);
+            if(this.interval) this.clearInterval(this.interval);
 
             callback();
         } catch (e) {

@@ -1,7 +1,7 @@
 {
     "expert": "yes",
     "cli": false,
-    "adapterName": "surefixe",
+    "adapterName": "watchsnail",
     "title": "Sure Fixe Abnormalities",
     "description": "Notification error processing",
     "keywords": [

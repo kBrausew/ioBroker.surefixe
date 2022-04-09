@@ -11,7 +11,7 @@ const utils = require("@iobroker/adapter-core");
 // Load your modules here, e.g.:
 // const fs = require("fs");
 
-class sureFixe extends utils.Adapter {
+class watchSnail extends utils.Adapter {
 
     /**
      * @param {Partial<utils.AdapterOptions>} [options={}]
@@ -19,7 +19,7 @@ class sureFixe extends utils.Adapter {
     constructor(options) {
         super({
             ...options,
-            name: "surefixe",
+            name: "watchsnail",
         });
         this.on("ready", this.onReady.bind(this));
         this.on("stateChange", this.onStateChange.bind(this));
@@ -127,8 +127,8 @@ if (require.main !== module) {
     /**
      * @param {Partial<utils.AdapterOptions>} [options={}]
      */
-    module.exports = (options) => new sureFixe(options);
+    module.exports = (options) => new watchSnail(options);
 } else {
     // otherwise start the instance directly
-    new sureFixe();
+    new watchSnail();
 }

@@ -1,17 +1,17 @@
-![Logo](admin/surefixe.png)
-# ioBroker.surefixe
+![Logo](admin/watchsnail.png)
+# ioBroker.watchsnail
 
-[![NPM version](https://img.shields.io/npm/v/iobroker.surefixe.svg)](https://www.npmjs.com/package/iobroker.surefixe)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.surefixe.svg)](https://www.npmjs.com/package/iobroker.surefixe)
-![Number of Installations](https://iobroker.live/badges/surefixe-installed.svg)
-![Current version in stable repository](https://iobroker.live/badges/surefixe-stable.svg)
-[![Dependency Status](https://img.shields.io/david/kBrausew/iobroker.surefixe.svg)](https://david-dm.org/kBrausew/iobroker.surefixe)
+[![NPM version](https://img.shields.io/npm/v/iobroker.watchsnail.svg)](https://www.npmjs.com/package/iobroker.watchsnail)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.watchsnail.svg)](https://www.npmjs.com/package/iobroker.watchsnail)
+![Number of Installations](https://iobroker.live/badges/watchsnail-installed.svg)
+![Current version in stable repository](https://iobroker.live/badges/watchsnail-stable.svg)
+[![Dependency Status](https://img.shields.io/david/kBrausew/iobroker.watchsnail.svg)](https://david-dm.org/kBrausew/iobroker.watchsnail)
 
-[![NPM](https://nodei.co/npm/iobroker.surefixe.png?downloads=true)](https://nodei.co/npm/iobroker.surefixe/)
+[![NPM](https://nodei.co/npm/iobroker.watchsnail.png?downloads=true)](https://nodei.co/npm/iobroker.watchsnail/)
 
-**Tests:** ![Test and Release](https://github.com/kBrausew/ioBroker.surefixe/workflows/Test%20and%20Release/badge.svg)
+**Tests:** ![Test and Release](https://github.com/kBrausew/ioBroker.watchsnail/workflows/Test%20and%20Release/badge.svg)
 
-## **surefixe** adapter for ioBroker
+## **watchsnail** adapter for ioBroker
 Status report notification (battery, reachable, error etc)
 
 ### Keywords

@@ -77,7 +77,7 @@ jobs:
           # # Then uncomment and customize the following block:
           # sentry: true
           # sentry-token: ${{ secrets.SENTRY_AUTH_TOKEN }}
-          # sentry-project: "iobroker-surefixe"
-          # sentry-version-prefix: "iobroker.surefixe"
+          # sentry-project: "iobroker-watchsnail"
+          # sentry-version-prefix: "iobroker.watchsnail"
           # # If your sentry project is linked to a GitHub repository, you can enable the following option
           # # sentry-github-integration: true

@@ -2,17 +2,17 @@
 "use strict";
 
 systemDictionary = {
-    "surefixe adapter settings": {
-        "en": "Adapter settings for surefixe",
-        "de": "Adaptereinstellungen für surefixe",
-        "ru": "Настройки адаптера для surefixe",
-        "pt": "Configurações do adaptador para surefixe",
-        "nl": "Adapterinstellingen voor surefixe",
-        "fr": "Paramètres d'adaptateur pour surefixe",
-        "it": "Impostazioni dell'adattatore per surefixe",
-        "es": "Ajustes del adaptador para surefixe",
-        "pl": "Ustawienia adaptera dla surefixe",
-        "zh-cn": "surefixe的适配器设置"
+    "watchsnail adapter settings": {
+        "en": "Adapter settings for watchsnail",
+        "de": "Adaptereinstellungen für watchsnail",
+        "ru": "Настройки адаптера для watchsnail",
+        "pt": "Configurações do adaptador para watchsnail",
+        "nl": "Adapterinstellingen voor watchsnail",
+        "fr": "Paramètres d'adaptateur pour watchsnail",
+        "it": "Impostazioni dell'adattatore per watchsnail",
+        "es": "Ajustes del adaptador para watchsnail",
+        "pl": "Ustawienia adaptera dla watchsnail",
+        "zh-cn": "watchsnail的适配器设置"
     },
     "battery": {
         "en": "Battery Report",

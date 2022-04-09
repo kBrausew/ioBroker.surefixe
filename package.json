@@ -1,5 +1,5 @@
 {
-  "name": "iobroker.surefixe",
+  "name": "iobroker.watchsnail",
   "version": "0.9.5",
   "description": "Status report notification (battery, reachable, error etc)",
   "author": "kBrausew <kbrausew@magenta.de>",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kBrausew/ioBroker.watchsnail.git"
+    "url": "git+https://github.com/kBrausew/ioBroker.watchsnail.git"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.6.0"

@@ -16,36 +16,24 @@
                 "zh-cn": "initial release"
             }
         },
-        "title": "Status report simple notification",
+        "title": "Status report simple notification  (battery, reachable, error etc)",
         "titleLang": {
-            "en": "Status report notification (battery, reachable, error etc)",
-            "de": "Status report notification (battery, reachable, error etc)",
-            "ru": "Status report notification (battery, reachable, error etc)",
-            "pt": "Status report notification (battery, reachable, error etc)",
-            "nl": "Status report notification (battery, reachable, error etc)",
-            "fr": "Status report notification (battery, reachable, error etc)",
-            "it": "Status report notification (battery, reachable, error etc)",
-            "es": "Status report notification (battery, reachable, error etc)",
-            "pl": "Status report notification (battery, reachable, error etc)",
-            "zh-cn": "Status report notification (battery, reachable, error etc)"
+            "en": "Status report simple notification (battery, reachable, error etc)"
         },
         "desc": {
-            "en": "Status report notification (battery, reachable, error etc)",
-            "de": "Status report notification (battery, reachable, error etc)",
-            "ru": "Status report notification (battery, reachable, error etc)",
-            "pt": "Status report notification (battery, reachable, error etc)",
-            "nl": "Status report notification (battery, reachable, error etc)",
-            "fr": "Status report notification (battery, reachable, error etc)",
-            "it": "Status report notification (battery, reachable, error etc)",
-            "es": "Status report notification (battery, reachable, error etc)",
-            "pl": "Status report notification (battery, reachable, error etc)",
-            "zh-cn": "Status report notification (battery, reachable, error etc)"
+            "en": "Status report simple notification (battery, reachable, error etc)"
         },
         "authors": [
             "kbrausew <kbrausew@magenta.de>"
         ],
         "keywords": [
-            "notification error abnormalities"
+            "status",
+            "battery",
+            "error",
+            "report",
+            "notification",
+            "reachable",
+            "abnormalities"
         ],
         "license": "GPL-3.0-or-later",
         "platform": "Javascript/Node.js",
@@ -66,23 +54,14 @@
         "adminTab": {
             "singleton": true,
             "name": {
-                "en": "Sure Fixe Abnormalities",
-                "de": "Sicher Fixe Anomalien",
-                "ru": "Уверенное исправление аномалий",
-                "pt": "Corrigir Anormalidades",
-                "nl": "Abnormaliteiten zeker oplossen",
-                "fr": "Sure Fixe Anomalies",
-                "it": "Anomalie di correzione sicura",
-                "es": "Anomalías de corrección segura",
-                "pl": "Pewnie napraw nieprawidłowości",
-                "zh-cn": "Sure Fixe 异常"
+                "en": "simple notification"
             },
             "link": "",
             "fa-icon": "info"
         },
         "dependencies": [
             {
-                "js-controller": ">=2.0.0"
+                "js-controller": ">=3.0.0"
             }
         ]
     },
